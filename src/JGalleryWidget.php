@@ -6,22 +6,21 @@
  * Time: 13:10
  */
 
-namespace jakeroid\yii2\widgets;
+namespace jakeroid\jgallerywidget;
 
 use yii\base\Widget;
 
 class JGalleryWidget extends Widget
 {
-    public $request_url;
-    public $custom_fields;
+    public $initial_images = [];
 
     public function init()
     {
-
+        parent::init();
     }
 
     public function run()
     {
-
+        $this->render('jgallery-widget');
     }
 }
