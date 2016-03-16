@@ -16,13 +16,14 @@ class JGalleryAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        'yii\web\JqueryAsset',
     ];
 
     public function init()
     {
-        $this->js[] = YII_DEBUG
-            ? 'js/jgallery.js'
-            : 'js/jgallery.min.js';
+        //TODO: Make min version of js
+        //$this->js[] = YII_DEBUG ? 'js/jgallery.js' : 'js/jgallery.min.js';
+        $this->js[] = 'js/jgallery.js';
         parent::init();
     }
 }
