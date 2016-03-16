@@ -1,0 +1,27 @@
+{
+  "name": "jakeroid/yii2-jgallery-widget",
+  "description": "Simple gallery widget for your project. You can use it for custom entities with images.",
+  "keywords": [
+    "yii2",
+    "gallery",
+    "widget"
+  ],
+  "homepage": "https://github.com/Jakeroid/yii2-jgallery-widget",
+  "type": "yii2-widget",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/Jakeroid/yii2-jgallery-widget/issues",
+    "source": "https://github.com/Jakeroid/yii2-jgallery-widget"
+  },
+  "authors": [
+    {
+      "name": "Ivan Karabadzhak",
+      "email": "iam@jakeroid.com",
+      "homepage": "http://jakeroid.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "^2.0.0",
+  },
+}
