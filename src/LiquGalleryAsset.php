@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
 
 class LiquGalleryAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/jakeroid/liqugallerywidget';
+    public $sourcePath = '@vendor/jakeroid/yii2-liqugallery-widget/src/assets';
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
