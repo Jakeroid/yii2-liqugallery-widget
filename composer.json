@@ -22,7 +22,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "jakeroid\\liqugallerywidget": "src"
+      "jakeroid\\liqugallerywidget\\": "src"
     }
   },
   "require": {
