@@ -20,6 +20,11 @@
       "homepage": "http://jakeroid.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "jakeroid\\liqugallerywidget": "src"
+    }
+  },
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "^2.0.0"
