@@ -8,15 +8,21 @@
 
 namespace jakeroid\jgallerywidget;
 
+use yii\base\ErrorException;
 use yii\base\Widget;
 
 class JGalleryWidget extends Widget
 {
     public $initial_images = [];
+    public $handler_url;
 
     public function init()
     {
-        parent::init();
+        if ($this->handler_url == '') {
+            throw new ErrorException('Handler URL didnt set.');
+        } else {
+            parent::init();
+        }
     }
 
     public function run()
