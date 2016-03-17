@@ -9,11 +9,19 @@
 use jakeroid\liqugallerywidget\LiquGalleryAsset;
 
 /* @var $this yii\web\View */
+/* @var $handler_url string */
+/* @var $custom_params [] */
+/* @var $initial_images \jakeroid\liqugallerywidget\LiquGalleryImageInterface[] */
 
 LiquGalleryAsset::register($this);
 ?>
 
-<div class="panel panel-default jgallery-widget">
+<div
+    class="panel panel-default liqugallery-widget"
+    data-handler-url="<?= json_encode($handler_url) ?>"
+    data-custom-params="<?= json_encode($custom_params) ?>"
+    data-initial-images="<?= json_encode($initial_images) ?>"
+>
     <div class="panel-heading">
         <button type="button" class="btn btn-default no-focus spoiler-trigger" data-toggle="collapse"><?= Yii::t('app', 'Gallery') ?></button>
     </div>

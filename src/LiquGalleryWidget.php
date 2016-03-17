@@ -13,8 +13,9 @@ use yii\base\Widget;
 
 class LiquGalleryWidget extends Widget
 {
-    public $initial_images = [];
     public $handler_url;
+    public $custom_params = [];
+    public $initial_images = [];
 
     public function init()
     {
@@ -27,6 +28,10 @@ class LiquGalleryWidget extends Widget
 
     public function run()
     {
-        $this->render('liqugallery-widget');
+        $this->render('liqugallery-widget', [
+            'handler_url' => $this->handler_url,
+            'custom_params' => $this->custom_params,
+            'initial_images' => $this->initial_images,
+        ]);
     }
 }
