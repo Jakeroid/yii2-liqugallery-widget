@@ -17,7 +17,8 @@ LiquGalleryAsset::register($this);
 ?>
 
 <div
-    class="panel panel-default liqugallery-widget"
+    id="liqugallery-widget"
+    class="panel panel-default"
     data-handler-url="<?= json_encode($handler_url) ?>"
     data-custom-params="<?= json_encode($custom_params) ?>"
     data-initial-images="<?= json_encode($initial_images) ?>"
@@ -25,7 +26,7 @@ LiquGalleryAsset::register($this);
     <div class="panel-heading">
         <button type="button" class="btn btn-default no-focus spoiler-trigger" data-toggle="collapse"><?= Yii::t('app', 'Gallery') ?></button>
     </div>
-    <div class="panel-collapse collapse out" id="gallery-panel">
+    <div class="panel-collapse collapse out liqugallery-main-panel">
         <div class="panel-body">
             <div class="gallery-files-uploader">
                 <input id="gallery-files-input" type="file" multiple>
