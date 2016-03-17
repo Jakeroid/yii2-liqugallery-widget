@@ -1,5 +1,6 @@
 {
   "name": "jakeroid/yii2-liqugallery-widget",
+  "version" : "1.0.0-dev",
   "description": "Simple gallery widget for your project. You can use it for custom entities with images.",
   "keywords": [
     "yii2",
