@@ -6,9 +6,9 @@
  * Time: 18:01
  */
 
-namespace jakeroid\jgallerywidget;
+namespace jakeroid\liqugallerywidget;
 
-interface JGalleryImageInterface {
+interface LiquGalleryImageInterface {
 
     public function getPath();
     public function getIsMain();

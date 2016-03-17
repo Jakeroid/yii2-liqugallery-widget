@@ -1,17 +1,17 @@
 {
-  "name": "jakeroid/yii2-jgallery-widget",
+  "name": "jakeroid/yii2-liqugallery-widget",
   "description": "Simple gallery widget for your project. You can use it for custom entities with images.",
   "keywords": [
     "yii2",
     "gallery",
     "widget"
   ],
-  "homepage": "https://github.com/Jakeroid/yii2-jgallery-widget",
+  "homepage": "https://github.com/Jakeroid/yii2-liqugallery-widget",
   "type": "yii2-widget",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/Jakeroid/yii2-jgallery-widget/issues",
-    "source": "https://github.com/Jakeroid/yii2-jgallery-widget"
+    "issues": "https://github.com/Jakeroid/yii2-liqugallery-widget/issues",
+    "source": "https://github.com/Jakeroid/yii2-liqugallery-widget"
   },
   "authors": [
     {

@@ -3,5 +3,5 @@
  */
 
 $(document).ready(function() {
-    alert('jgallery started');
+    alert('liqugallery started');
 });

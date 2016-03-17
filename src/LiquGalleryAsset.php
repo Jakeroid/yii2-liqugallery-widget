@@ -6,13 +6,13 @@
  * Time: 16:44
  */
 
-namespace jakeroid\jgallerywidget;
+namespace jakeroid\liqugallerywidget;
 
 use yii\web\AssetBundle;
 
-class JGalleryAsset extends AssetBundle
+class LiquGalleryAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/jakeroid/jgallerywidget';
+    public $sourcePath = '@vendor/jakeroid/liqugallerywidget';
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
@@ -23,7 +23,7 @@ class JGalleryAsset extends AssetBundle
     {
         //TODO: Make min version of js
         //$this->js[] = YII_DEBUG ? 'js/jgallery.js' : 'js/jgallery.min.js';
-        $this->js[] = 'js/jgallery.js';
+        $this->js[] = 'js/liqugallery.js';
         parent::init();
     }
 }

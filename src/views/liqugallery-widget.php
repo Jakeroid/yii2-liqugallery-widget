@@ -6,11 +6,11 @@
  * Time: 16:41
  */
 
-use jakeroid\jgallerywidget\JGalleryAsset;
+use jakeroid\liqugallerywidget\LiquGalleryAsset;
 
 /* @var $this yii\web\View */
 
-JGalleryAsset::register($this);
+LiquGalleryAsset::register($this);
 ?>
 
 <div class="panel panel-default jgallery-widget">

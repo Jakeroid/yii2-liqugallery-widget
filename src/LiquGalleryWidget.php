@@ -6,12 +6,12 @@
  * Time: 13:10
  */
 
-namespace jakeroid\jgallerywidget;
+namespace jakeroid\liqugallerywidget;
 
 use yii\base\ErrorException;
 use yii\base\Widget;
 
-class JGalleryWidget extends Widget
+class LiquGalleryWidget extends Widget
 {
     public $initial_images = [];
     public $handler_url;
@@ -27,6 +27,6 @@ class JGalleryWidget extends Widget
 
     public function run()
     {
-        $this->render('jgallery-widget');
+        $this->render('liqugallery-widget');
     }
 }
