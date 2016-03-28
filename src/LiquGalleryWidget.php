@@ -28,7 +28,7 @@ class LiquGalleryWidget extends Widget
 
     public function run()
     {
-        $this->render('liqugallery-widget', [
+        return $this->render('liqugallery-widget', [
             'handler_url' => $this->handler_url,
             'custom_params' => $this->custom_params,
             'initial_images' => $this->initial_images,

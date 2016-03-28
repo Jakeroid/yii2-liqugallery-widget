@@ -18,12 +18,16 @@ class LiquGalleryAsset extends AssetBundle
         'yii\bootstrap\BootstrapAsset',
         'yii\web\JqueryAsset',
     ];
+    public $publishOptions = [
+        'forceCopy' => true,
+    ];
 
     public function init()
     {
-        //TODO: Make min version of js
+        //TODO: Make min version of js and css
         //$this->js[] = YII_DEBUG ? 'js/jgallery.js' : 'js/jgallery.min.js';
         $this->js[] = 'js/liqugallery.js';
+        $this->css[] = 'css/liqugallery.css';
         parent::init();
     }
 }

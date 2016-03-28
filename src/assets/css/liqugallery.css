@@ -1,0 +1,83 @@
+.liqugallery-api-error {
+    display: none;
+}
+
+.liqugallery-files-click-zone {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font: 20pt bold;
+    color: #bbb;
+    cursor: pointer;
+    transition: color 300ms ease-in;
+}
+
+.liqugallery-files-drop-zone.highlighted {
+    background-color: #F1F1F1;
+}
+
+.liqugallery-api-error {
+    border: 2px dashed #E90303;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    font: 20pt bold;
+    color: #E90303;
+    display: none;
+}
+
+#liqugallery-files-input {
+    display: none;
+}
+
+.liqugallery-list {
+    margin-top: 14px;
+}
+
+.liqugallery-element {
+    width: 210px;
+    height: 210px;
+    padding: 4px;
+    border: 1px solid #bbb;
+    float: left;
+    margin-right: 5px;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.liqugallery-element.liqugallery-element-main {
+    background-color: #E7E7E7;
+}
+
+.liqugallery-item-image {
+    height: 162px;
+}
+
+.liqugallery-item-actions {
+    border-top: 1px solid #bbb;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.liqugallery-item-actions button {
+    border: none;
+    font-size: 12px;
+    transition: 0.2s background-color ease-in;
+    font-weight: bold;
+}
+
+.liqugallery-image {
+    max-width: 200px;
+    max-height: 160px;
+}
+
+.liqugallery-item-filename {
+    text-align: center;
+    font-style: italic;
+}
+
+.liqugallery-templates {
+    display: none;
+}
