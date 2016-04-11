@@ -9,10 +9,6 @@ $(document).ready(function() {
         var handlerUrl = JSON.parse(atob(liquGalleryWidget.data('handler-url')));
         var customParams = JSON.parse(atob(liquGalleryWidget.data('custom-params')));
 
-        liquGalleryWidget.find(".spoiler-trigger").click(function() {
-            $(this).parent().next().collapse('toggle');
-        });
-
         var galleryUploader = liquGalleryWidget.find('.liqugallery-files-uploader');
 
         //checking file api availability

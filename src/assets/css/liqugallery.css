@@ -5,7 +5,7 @@
 .liqugallery-files-click-zone {
     border: 2px dashed #bbb;
     border-radius: 5px;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
     font: 20pt bold;
     color: #bbb;
@@ -32,7 +32,7 @@
 }
 
 .liqugallery-list {
-    margin-top: 14px;
+    text-align: center;
 }
 
 .liqugallery-element {
@@ -40,10 +40,10 @@
     height: 210px;
     padding: 4px;
     border: 1px solid #bbb;
-    float: left;
-    margin-right: 5px;
-    margin-left: 6px;
-    margin-top: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 16px;
+    display: inline-block;
 }
 
 .liqugallery-element.liqugallery-element-main {
