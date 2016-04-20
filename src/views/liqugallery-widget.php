@@ -24,10 +24,10 @@ LiquGalleryAsset::register($this);
     <div class="liqugallery-files-uploader">
         <input id="liqugallery-files-input" type="file" multiple>
         <div class="liqugallery-files-drop-zone liqugallery-files-click-zone">
-            <?= Yii::t('liqugallery-widget', 'DROP FILES OR CLICK HERE FOR UPLOAD') ?>
+            <?= Yii::t('liqugallery-widget', 'DROP_FILES_OR_CLICK_HERE_FOR_UPLOAD') ?>
         </div>
         <div class="liqugallery-api-error">
-            <?= Yii::t('liqugallery-widget', 'SORRY, BUT YOUR BROWSER NOT SUPPORT HTML5 UPLOAD') ?>
+            <?= Yii::t('liqugallery-widget', 'SORRY_BUT_YOUR_BROWSER_NOT_SUPPORT_HTML5_UPLOAD') ?>
         </div>
         <div class="liqugallery-list">
         </div>
@@ -38,7 +38,7 @@ LiquGalleryAsset::register($this);
                 </div>
                 <div class="liqugallery-item-actions">
                     <button type="button" class="liqugallery-item-action-set-main btn-sm btn-primary">
-                        <?= Yii::t('liqugallery-widget', 'SET MAIN') ?>
+                        <?= Yii::t('liqugallery-widget', 'SET_MAIN') ?>
                     </button>
                     <button type="button" class="liqugallery-item-action-delete btn-sm btn-danger">
                         <?= Yii::t('liqugallery-widget', 'DELETE') ?>

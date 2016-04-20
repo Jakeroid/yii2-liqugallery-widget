@@ -28,7 +28,7 @@ class LiquGalleryWidget extends Widget
         Yii::$app->i18n->translations['liqugallery-widget'] = $i18n;
         
         if ($this->handler_url == '') {
-            throw new ErrorException(Yii::t('liqugallery-widget', 'HANDLER URL DID NOT SET') . '.');
+            throw new ErrorException(Yii::t('liqugallery-widget', 'HANDLER_URL_DID_NOT_SET') . '.');
         } else {
             parent::init();
         }
