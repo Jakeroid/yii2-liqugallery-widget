@@ -21,9 +21,8 @@ $(document).ready(function() {
         } else {
 
             //controls
-            var galleryInput = $('.liqugallery-files-input');
+            var galleryInput = $('#liqugallery-files-input');
             var galleryDropZone = $('.liqugallery-files-drop-zone');
-            var galleryClickZone = $('.liqugallery-files-click-zone');
             var galleryList = $('.liqugallery-list');
             var imageTemplate = $('.liqugallery-templates .liqugallery-element');
 
@@ -40,7 +39,7 @@ $(document).ready(function() {
             //events for gallery drop zone
             galleryDropZone.bind({
                 click: function(event) {
-                    return false;
+                    galleryInput.click();
                 },
                 dragenter: function() {
                     return false;
@@ -59,11 +58,6 @@ $(document).ready(function() {
                     $(this).removeClass('highlighted');
                     return false;
                 }
-            });
-
-            galleryClickZone.click(function () {
-                //emulate file input click
-                galleryInput.click();
             });
 
             //function for add images from JSON to list and attach handlers
