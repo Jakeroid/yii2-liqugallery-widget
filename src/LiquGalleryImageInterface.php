@@ -31,4 +31,16 @@ interface LiquGalleryImageInterface
      * @return boolean
      */
     public function isMain();
+
+    /**
+     * Method should return "alt" tag of image
+     * @return string
+     */
+    public function getAltTag();
+
+    /**
+     * Method should return "title" tag of image
+     * @return string
+     */
+    public function getTitleTag();
 }

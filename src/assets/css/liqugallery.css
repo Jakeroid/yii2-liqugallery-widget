@@ -31,34 +31,21 @@
     display: none;
 }
 
-.liqugallery-list {
-    text-align: center;
-}
-
-.liqugallery-element {
-    width: 210px;
-    height: 210px;
-    padding: 4px;
-    border: 1px solid #bbb;
-    margin-right: 8px;
-    margin-left: 8px;
-    margin-top: 16px;
-    display: inline-block;
-}
-
-.liqugallery-element.liqugallery-element-main {
-    background-color: #E7E7E7;
-}
-
 .liqugallery-item-image {
-    height: 162px;
+    flex-basis: 22%;
 }
 
 .liqugallery-item-actions {
-    border-top: 1px solid #bbb;
-    height: 20px;
     text-align: center;
-    padding-top: 5px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 18%;
+    height: 100%;
+    align-items: center;
 }
 
 .liqugallery-item-actions button {
@@ -66,11 +53,21 @@
     font-size: 12px;
     transition: 0.2s background-color ease-in;
     font-weight: bold;
+    flex-basis: 100%;
+    height: 25%;
+}
+
+.liqugallery-item-actions button.disabled,
+.liqugallery-item-actions button.disabled:hover,
+.liqugallery-item-actions button.disabled:focus {
+    background-color: #ffffff;
+    color: black;
+    cursor: auto;
+    outline: none;
 }
 
 .liqugallery-image {
-    max-width: 200px;
-    max-height: 160px;
+    width: 100%;
 }
 
 .liqugallery-item-filename {
@@ -80,4 +77,71 @@
 
 .liqugallery-templates {
     display: none;
+}
+
+.liqugallery-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.liqugallery-element {
+    flex-basis: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #bbbbbb;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.liqugallery-item-tags .form-group {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    flex-basis: 100%;
+    position: relative;
+}
+
+.liqugallery-item-tags .form-group .control-label {
+    flex-basis: 25%;
+    margin-bottom: 0;
+}
+
+.liqugallery-item-tags {
+    flex-basis: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.liqugallery-item-tag-status {
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    bottom: -2px;
+}
+
+.liqugallery-item-tag-status.saving {
+    color: #d8be02;
+}
+
+.liqugallery-item-tag-status.saved {
+    color: #01800a;
+}
+
+.liqugallery-item-tag-status.error {
+    color: #b90505;
 }

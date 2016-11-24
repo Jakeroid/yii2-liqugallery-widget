@@ -22,4 +22,10 @@ return [
     'HANDLER_URL_DID_NOT_SET' => 'Ссылка обработчика не установлена',
     'SET_MAIN' => 'Сделать главным',
     'SORRY_BUT_YOUR_BROWSER_NOT_SUPPORT_HTML5_UPLOAD' => 'Простите, но ваш браузер не поддерживает HTML5 загрузку файлов',
+    'ALT_TAG_LABEL' => 'Тэг ALT',
+    'TITLE_TAG_LABEL' => 'Тэг TITLE',
+    'ALREADY_IS_MAIN' => 'Главное изображение',
+    'TAG_INPUT_TEXT_SAVING' => 'Сохранение...',
+    'TAG_INPUT_TEXT_SAVED' => 'Сохранено.',
+    'TAG_INPUT_TEXT_ERROR' => 'Ошибка!',
 ];

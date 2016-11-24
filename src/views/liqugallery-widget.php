@@ -6,7 +6,9 @@
  * Time: 16:41
  */
 
+use yii\helpers\Html;
 use jakeroid\liqugallerywidget\LiquGalleryAsset;
+use jakeroid\liqugallerywidget\LiquGalleryParams;
 
 /* @var $this yii\web\View */
 /* @var $handler_url string */
@@ -36,8 +38,29 @@ LiquGalleryAsset::register($this);
                 <div class="liqugallery-item-image">
                     <img class="liqugallery-image" src="">
                 </div>
+                <div class="liqugallery-item-tags">
+                    <div class="liqugallery-item-tag-alt form-group">
+                        <label class="control-label"><?= Yii::t('liqugallery-widget', 'ALT_TAG_LABEL') ?></label>
+                        <input class="form-control liqugallery-item-tag-alt-input" type="text"
+                               name="alt-tag">
+                        <span class="liqugallery-item-tag-status"
+                              data-text-saving="<?= Yii::t('liqugallery-widget', 'TAG_INPUT_TEXT_SAVING') ?>"
+                              data-text-saved="<?= Yii::t('liqugallery-widget', 'TAG_INPUT_TEXT_SAVED') ?>"
+                              data-text-error="<?= Yii::t('liqugallery-widget', 'TAG_INPUT_TEXT_ERROR') ?>"></span>
+                    </div>
+                    <div class="liqugallery-item-tag-title form-group">
+                        <label class="control-label"><?= Yii::t('liqugallery-widget', 'TITLE_TAG_LABEL') ?></label>
+                        <input class="form-control liqugallery-item-tag-title-input" type="text"
+                               name="title-tag">
+                        <span class="liqugallery-item-tag-status"
+                              data-text-saving="<?= Yii::t('liqugallery-widget', 'TAG_INPUT_TEXT_SAVING') ?>"
+                              data-text-saved="<?= Yii::t('liqugallery-widget', 'TAG_INPUT_TEXT_SAVED') ?>"
+                              data-text-error="<?= Yii::t('liqugallery-widget', 'TAG_INPUT_TEXT_ERROR') ?>"></span>
+                    </div>
+                </div>
                 <div class="liqugallery-item-actions">
-                    <button type="button" class="liqugallery-item-action-set-main btn-sm btn-primary">
+                    <button type="button" class="liqugallery-item-action-set-main btn-sm btn-primary"
+                            data-disabled-text="<?= Yii::t('liqugallery-widget', 'ALREADY_IS_MAIN') ?>">
                         <?= Yii::t('liqugallery-widget', 'SET_MAIN') ?>
                     </button>
                     <button type="button" class="liqugallery-item-action-delete btn-sm btn-danger">

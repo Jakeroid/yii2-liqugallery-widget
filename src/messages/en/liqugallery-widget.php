@@ -22,4 +22,10 @@ return [
     'HANDLER_URL_DID_NOT_SET' => 'Handler url did not set',
     'SET_MAIN' => 'Set main',
     'SORRY_BUT_YOUR_BROWSER_NOT_SUPPORT_HTML5_UPLOAD' => 'Sorry, but your browser not support html5 upload',
+    'ALT_TAG_LABEL' => 'Alt tag',
+    'TITLE_TAG_LABEL' => 'Title tag',
+    'ALREADY_IS_MAIN' => 'Already is main',
+    'TAG_INPUT_TEXT_SAVING' => 'Saving...',
+    'TAG_INPUT_TEXT_SAVED' => 'Saved.',
+    'TAG_INPUT_TEXT_ERROR' => 'Erorr!',
 ];

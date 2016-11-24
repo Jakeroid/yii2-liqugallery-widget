@@ -40,6 +40,8 @@ class LiquGalleryAnswer
             $temp['id'] = $image->getId();
             $temp['path'] = $image->getPath();
             $temp['isMain'] = $image->isMain();
+            $temp['altTag'] = $image->getAltTag();
+            $temp['titleTag'] = $image->getTitleTag();
             $images[] = $temp;
         }
 
