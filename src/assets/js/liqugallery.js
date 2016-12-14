@@ -228,7 +228,7 @@ $(document).ready(function () {
                     //set delete button handler
                     currentImageHtml.find('.liqugallery-item-actions .liqugallery-item-action-delete').click(function () {
                         var id = $(this).parent('.liqugallery-item-actions').parent('.liqugallery-element').data(id);
-                        deleteImage(handlerUrl, params, id);
+                        deleteImage(handlerUrl, customParams, id);
                     });
 
                     //set main button behavior
