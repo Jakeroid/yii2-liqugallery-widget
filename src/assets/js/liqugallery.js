@@ -6,12 +6,14 @@ $(document).ready(function () {
 
     var liquGalleryWidget = $('.liqugallery-widget');
 
-    //if liqugallery available on this page
-    if (liquGalleryWidget.length > 0) {
-        var handlerUrl = JSON.parse(atob(liquGalleryWidget.data('handler-url')));
-        var customParams = JSON.parse(atob(liquGalleryWidget.data('custom-params')));
+    liquGalleryWidget.each(function() {
 
-        var galleryUploader = liquGalleryWidget.find('.liqugallery-files-uploader');
+        var currWidget = $(this);
+
+        var handlerUrl = JSON.parse(atob(currWidget.data('handler-url')));
+        var customParams = JSON.parse(atob(currWidget.data('custom-params')));
+
+        var galleryUploader = currWidget.find('.liqugallery-files-uploader');
 
         //checking file api availability
         if (!window.File || !window.FileReader || !window.FileList || !window.Blob) {
@@ -282,5 +284,5 @@ $(document).ready(function () {
 
         //load current images
         loadImages(handlerUrl, customParams);
-    }
+    });
 });
