@@ -24,7 +24,7 @@ LiquGalleryAsset::register($this);
     data-custom-params='<?= base64_encode(json_encode($custom_params)) ?>'
 >
     <div class="liqugallery-files-uploader">
-        <input id="liqugallery-files-input" type="file" multiple>
+        <input class="liqugallery-files-input" type="file" multiple>
         <div class="liqugallery-files-drop-zone liqugallery-files-click-zone">
             <?= Yii::t('liqugallery-widget', 'DROP_FILES_OR_CLICK_HERE_FOR_UPLOAD') ?>
         </div>

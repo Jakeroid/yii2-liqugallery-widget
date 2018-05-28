@@ -26,10 +26,10 @@ $(document).ready(function () {
         }
 
         //controls
-        var galleryInput = $('#liqugallery-files-input');
-        var galleryDropZone = $('.liqugallery-files-drop-zone');
-        var galleryList = $('.liqugallery-list');
-        var imageTemplate = $('.liqugallery-templates .liqugallery-element');
+        var galleryInput = currWidget.find('.liqugallery-files-input');
+        var galleryDropZone = currWidget.find('.liqugallery-files-drop-zone');
+        var galleryList = currWidget.find('.liqugallery-list');
+        var imageTemplate = currWidget.find('.liqugallery-templates .liqugallery-element');
 
         //function for default post request
         function defaultPostRequest(url, requestParams, customParams, successCallback, errorCallback, isNoNeedRender) {
