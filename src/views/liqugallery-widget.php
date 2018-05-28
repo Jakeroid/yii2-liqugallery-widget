@@ -19,7 +19,7 @@ LiquGalleryAsset::register($this);
 ?>
 
 <div
-    id="liqugallery-widget"
+    class="liqugallery-widget"
     data-handler-url='<?= base64_encode(json_encode($handler_url)) ?>'
     data-custom-params='<?= base64_encode(json_encode($custom_params)) ?>'
 >
