@@ -1,6 +1,6 @@
 {
   "name": "jakeroid/yii2-liqugallery-widget",
-  "description": "Simple gallery widget for your project. You can use it for custom entities with images.",
+  "description": "Simple gallery widget with AJAX upload and main image option",
   "keywords": [
     "yii2",
     "gallery",
@@ -16,8 +16,8 @@
   "authors": [
     {
       "name": "Ivan Karabadzhak",
-      "email": "iam@jakeroid.com",
-      "homepage": "http://jakeroid.com"
+      "email": "jakeroid@icloud.com",
+      "homepage": "https://jakeroid.com"
     }
   ],
   "autoload": {
