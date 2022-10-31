@@ -6,6 +6,8 @@ Yii2 LiquGallery widget
 Simple gallery widget with AJAX upload and main image option.
 Could be useful if you want to manage images on the back office side.
 
+If you need some assistance or similar software, I could help. Contact me on [LinkedIn](https://www.linkedin.com/in/ivan-karabadzhak-42712113b/) or [Upwork](https://www.upwork.com/freelancers/ivank6).
+
 How to install?
 -----
 
